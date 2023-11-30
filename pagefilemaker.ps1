@@ -1,3 +1,8 @@
+# Author: Kris Tomplait
+ # This script is to automate the creation of a page file for a windows 10 machine
+ # it was wrote by me so, use at your own risk
+
+ 
  # Check if a paging file exists
 $pagingFileExists = Get-PageFile | Where-Object { $_.Path -like '*\pagefile.sys' }
 
